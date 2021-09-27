@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -8,7 +9,8 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background:  linear-gradient(to right, #80d8b3 20%, #9a75bd 80%);
+
   color: #212121;
   line-height: 1.5;
 }
@@ -22,3 +24,35 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.btn-item {
+  margin: 15px;
+  overflow: hidden;
+ }
+
+.btn {
+  border-radius: 5%;
+  border: inherit;
+  background: linear-gradient(0deg, #fff, #86748a);
+  border: solid 1px;
+  font-family: inherit;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.9;
+    width: 180px;
+    
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background: rgb(232, 227, 233);
+  }
+  
+.btn-link {
+  text-decoration: none;
+  }
+
+  .tasks {
+    padding-top: 30px;
+    text-align: center;
+  }
