@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background:  linear-gradient(to right, #80d8b3 20%, #9a75bd 80%);
 
-  color: #212121;
+  color: #2d2074;
   line-height: 1.5;
 }
 
@@ -56,3 +56,20 @@ button {
     padding-top: 30px;
     text-align: center;
   }
+  .gallery {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    
+}
+
+.gallery__item {
+    margin-right: 20px;
+}
+
+.image {
+  height: 250px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
