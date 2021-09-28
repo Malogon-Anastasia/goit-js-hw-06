@@ -36,10 +36,11 @@ button {
   background: linear-gradient(0deg, #fff, #86748a);
   border: solid 1px;
   font-family: inherit;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     width: 180px;
+    color: #2d2074;
     
   }
 
@@ -72,4 +73,13 @@ button {
   height: 250px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+
+.back {
+  margin-left: 40px;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 900;
+  color: rgb(80, 144, 228);
+  
 }
